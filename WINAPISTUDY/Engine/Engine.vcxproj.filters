@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{c7d30942-fcdb-4046-80e9-b3381a1c69e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{6debd54d-2cad-4e5b-9388-ad06d8523639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{e3359b50-1c1e-40e1-a705-b15e3d730750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{dbadd87c-39d9-4d07-b548-3a19003d06ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{7a76e9b6-d782-4756-a2c6-3e5949543064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserObjects">
+      <UniqueIdentifier>{aed3c005-d606-4542-85a2-2c65f60de577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserObjects\Obstacles">
+      <UniqueIdentifier>{31198ff9-4013-4ec2-b0e2-48d02c5465c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SingleTon.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>UserObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LineManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>UserObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>UserObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObject.h">
+      <Filter>UserObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>UserObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BGMushroom1.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="DropMushroom.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Roller.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Sign.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Spike.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="SpikeBall.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="BGMushroom3.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="BGMushroom2.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DropRing.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Meteor.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioTile.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>UserObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LineManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>UserObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>UserObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageObject.cpp">
+      <Filter>UserObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>UserObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMushroom1.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="DropMushroom.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Roller.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Sign.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Spike.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="SpikeBall.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Spring.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMushroom3.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMushroom2.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DropRing.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Meteor.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioTile.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>UserObjects\Obstacles</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
